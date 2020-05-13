@@ -10,3 +10,4 @@
  具体过程：在训练过程中，我们将有变化的两张图片按照channel合并起来，再将有变化的部分标注出mask，放入模型中训练。训练完成后，在同一地区不同时间拍摄的两组照片，将其按照channel叠加起来，放入训练好的模型中，可以检测出地区内的房屋，水利等等的变化情况，具体会由mask显示出来。
 
  需要检测的图片存放于fakeA中，检测的结果位于resultA中，模型已经训练好
+![图片说明1](https://github.com/wxystudio/change-detection/blob/master/fake_A/1000.jpg)
